@@ -1,0 +1,344 @@
+.background-img{
+	padding: 0;	
+	background:url("../images/goodbank-heroshot.original.png") no-repeat;
+	position: fixed;
+	height: 100%;
+	min-height: 500px;
+    width: 100%;		
+	z-index: -2;
+	background-position: top;
+	background-size: cover;		
+	left:0;
+	top: -20px;
+}
+.background-fade{
+	padding: 0;
+	background-color:rgba(36,65,75,0.9); 	
+	position: fixed;
+	height: 100%;
+	min-height: 500px;
+    width: 100%;		
+	z-index: -1;
+	top: 0;
+	left:0;
+}
+
+.wrap-top-img{
+	position:relative;
+}
+
+.background-img2{
+	padding: 0;
+	background:url("../images/goodbank-form-background.original.png") no-repeat;
+	position: absolute;
+	height: 100%;
+    width: 100%;		
+	z-index: -2;
+	background-position: top;
+	background-size: cover;	
+	left: 0px;	
+}
+
+.headertop{
+	background-color: #ffffff;	
+}
+.head-text1{
+	font-family: 'roboto';
+	font-size: 14px;
+	color: #495b60;
+	font-weight: normal;
+}	
+.head-text2{
+	font-family: 'roboto';
+	font-size: 14px;
+	color: #24b56e;
+	font-weight: bold;
+}
+
+.mainheader{
+	font-family: 'lato';
+	font-size: 55px;
+	color: #ffffff;
+	font-weight: bold;
+	margin-top: 137px;
+}
+.maintext{
+	font-family: 'roboto';
+	font-size: 18px;
+	color: #ffffff;
+	font-weight: normal;
+	padding-top: 10px;
+	padding-bottom: 32px;
+}	
+
+.percent{
+	font-family: 'roboto';
+	font-size: 55px;
+	color: #e8eaea;
+	font-weight: bold;
+}
+.percent-text{
+	font-family: 'roboto';
+	font-size: 14px;
+	color: #e8eaea;
+	font-weight: regular;
+}
+
+.percent-border1{
+	display: block;
+	background: rgba(91,111,118,0);
+	border-style: solid;
+	border-width: 1px;
+	border-color: #5b6f76;
+	z-index: 12;
+	border-radius: 5px;
+}
+.percent-border2{
+	display: block;
+	background: rgba(91,111,118,0);
+	border-style: solid;
+	border-width: 1px;
+	border-color: #5b6f76;
+	z-index: 12;
+	border-radius: 5px;
+}
+.btnget{
+	border-style: outset;
+	width: 314px;
+	height: 64px;	
+	background: #24b56e;  	
+	color: #ffffff;
+	border-width: 1px;
+	font-size: 20px;
+	line-height: 29px; 
+	font-family: 'roboto'; 
+	text-align: center;
+	font-weight: bold;
+	border-radius: 4px;
+}
+
+.btnget:hover {
+  background: #24b56e;
+  background-image: -webkit-linear-gradient(top, #24b56e, #34ecdc4);
+  background-image: -moz-linear-gradient(top, #24b56e, #34ecdc4);
+  background-image: -ms-linear-gradient(top, #24b56e, #34ecdc4);
+  background-image: -o-linear-gradient(top, #24b56e, #34ecdc4);
+  background-image: linear-gradient(to bottom, #24b56e, #34ecdc4);
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.mid-head{
+	font-family: 'lato';
+	font-size: 26px;
+	color: #42899d;
+	font-weight: normal;
+	padding-top: 80px; 
+}
+.h-line{
+  background: rgba(66,137,157,1);
+  border-style: none;  
+  width: 53px;
+  height: 5px;
+  border-radius: 61px;
+  text-align: center; 
+  margin: 0 auto;
+}
+.mid-text{
+	font-family: 'roboto';
+	font-size: 14px;
+	color: #495b60;
+	font-weight: normal;
+	padding-top: 45px;
+}
+.mid-text-1{
+	font-family: 'lato';
+	font-style: italic;
+	font-size: 26px;
+	color: #42899d;
+	font-weight: normal;
+	padding-top: 40px;
+  	padding-bottom: 147px;
+}
+.white-bg{
+	background-color: #ffffff;
+}
+.icon-header{
+	font-family: 'lato';
+	font-size: 21px;
+	color: #42899d;
+	font-weight: normal;
+	padding-top: 18px;
+  	padding-bottom: 20px;
+}
+.icon-text{
+	font-family: 'roboto';
+	font-size: 16px;
+	color: #495b60;
+	font-weight: normal;
+}
+.form-pad{
+	padding-top: 5px;
+}
+
+.form-bg{
+	background-color: #24414B;
+	padding: 104px 50px;
+}
+.form-head-1{
+	font-family: 'helvetica';
+	font-size: 26px;
+	color: #ffffff;
+	font-weight: normal;
+}
+.form-head-2{
+	font-family: 'helvetica';
+	font-size: 16px;
+	color: #c6cacc;
+	font-weight: normal;
+	padding-top: 18px;
+	padding-bottom: 35px;
+}
+.form-label{
+	font-family: 'roboto';
+	font-size: 18px;
+	color: #c6cacc;
+	font-weight: normal;
+}
+.form-textbox{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #4f6f71;
+	background-color: #1f3942;
+	color: #b1babd;
+	border-radius: 5px;
+}
+.btnget-1{    
+  border-style: none;
+  width: 270px;
+  height: 59px;
+  border-radius: 5px;
+  background-color: rgba(36,181,110,1);  
+  text-shadow: 1px 1px #010f2e;
+  color: #fff;
+  border-width: 1px;
+  font-size: 20px;
+  line-height: 24px; 
+  font-family: 'roboto'; 
+  text-align: center;
+  font-weight: bold;
+}
+
+.testimonial-1{
+	font-family: 'roboto';
+	font-size: 21px;
+	color: #fff;
+	font-weight: normal;
+	font-style: italic;
+	line-height: 38px;
+	padding-top: 184px;
+}
+.testimonial-2{
+	font-family: 'roboto';
+	font-size: 21px;
+	color: #fff;
+	font-weight: normal;
+	font-style: italic;
+	line-height: 38px;
+	padding-top: 125px;
+}
+.testimonial-name{
+	font-family: 'lato';
+	font-size: 16px;
+	color: #d9ddde;
+	font-weight: bold;
+}
+.testimonial-place{
+	font-family: 'roboto';
+	font-size: 14px;
+	color: #d9ddde;
+	font-weight: normal;
+}
+.address{
+	font-family: 'roboto';
+	font-size: 14px;
+	color: #495b60;
+	font-weight: normal;
+}
+.phone{
+	font-family: 'roboto';
+	font-size: 14px;
+	color: #4d7683;
+	font-weight: normal;
+}
+.phone1{
+	font-family: 'roboto';
+	font-size: 14px;
+	color: #24b56e;
+	font-weight: bold;
+}
+
+.disclaimer{
+	font-family: 'roboto';
+	font-size: 13px;
+	color: #aab1b3;
+	font-weight: normal;
+	padding-top: 30px;
+	padding-bottom: 65px;
+}
+
+.footer{background: #24B56E;
+padding: 20px 0px;
+}
+
+.footer-text{
+	font-family: 'roboto';
+	font-size: 16px;
+	color: #ffffff;
+	font-weight: normal;
+}
+
+.btnget-2{    
+  border-style: none;
+  width: 260px;
+  height: 42px;
+  border-radius: 5px;
+  background-color: #ffffff;  
+  color: #24b56e;
+  border-width: 1px;
+  font-size: 16px;
+  line-height: 19px; 
+  font-family: 'arial'; 
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Media Queriess */
+
+@media(max-width: 768px){
+.mainheader{
+		font-size: 45px;
+	}
+}
+@media(max-width: 768px){
+.percent-border2{
+		margin-top: 40px;
+	}
+}
+@media(max-width: 768px){
+.column-space{
+		margin-top: 70px;
+	}
+}
+@media(max-width: 768px){
+.form-head-1{
+		font-size: 20px;
+	}
+}
+@media(max-width: 530px){
+.form-label{
+		font-size: 14px;
+	}
+}
+
+

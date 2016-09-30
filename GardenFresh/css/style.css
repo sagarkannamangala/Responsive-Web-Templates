@@ -1,0 +1,87 @@
+.modren-image{width: 100%;}
+
+.joinclubheader{padding-top: 10px;}
+
+.e-label{color: #ffffff}
+
+.chef-sec {padding-top: 30px;}
+
+.cookingclub{
+	position: absolute; 
+	top: 175px;
+}
+.join-btn{
+	background-color: #e40408;
+	margin-bottom: 15px;
+}
+
+.joinform{
+	position: absolute; 
+	left: 565px; 
+	bottom: 0px;
+}
+
+.joinclubheadertext{
+	color: rgb(255, 255, 255); font-family: 'helvetica'; font-size: 28px;
+}
+.joinclubtext{
+	font-family: 'helvetica'; font-size: 14px;
+	color: #ffffff;
+	font-weight: 600;
+}
+
+.imagetopborder{
+	border-top: 2px solid #ccc;
+  	border-width: 1px;
+}
+
+.gardenheadertext{
+	text-align: center;	
+}
+
+.reviewtext{	
+	font-family: 'open sans'; 
+	font-size: 16px; 
+	color: rgb(0, 192, 210);
+	font-weight: normal;
+	padding-bottom: 25px;
+}
+
+.review{padding-top: 60px;}
+
+.footer{text-align: center;padding: 12px;}
+
+.copyright{font-size: 11px; color: rgb(153, 153, 153); font-family: 'open sans';}
+
+/** --- Media Queries ---**/
+@media(max-width: 1200px){
+  .joinform {  	
+  	position: absolute; 
+   	left: 300px; 
+	top: 87px;
+  }
+}
+
+@media(max-width: 992px){
+  .joinform {  	
+  	position: absolute;    	
+	top: 52px;
+  }
+}
+
+@media(max-width: 768px){
+  .joinform {  	
+  	position: static;    		
+  }
+}
+
+@media(max-width: 450px){
+.reviewtext{	
+	
+	font-size: 15px; 
+	
+}
+}
+
+
+

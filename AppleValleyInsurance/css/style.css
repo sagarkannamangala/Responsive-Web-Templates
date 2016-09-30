@@ -1,0 +1,217 @@
+
+.background{
+  background-position: top;
+  background-size: cover;
+  height:685px;
+}
+
+.form-group{
+  font-size: 14px; 
+  color: #666666;
+  font-family: arvo; 
+  padding-top: 8px;
+}
+
+.yorkgrey-bg{	
+	padding-bottom: 30px;
+	background-size: cover;
+	padding-top: 75px;
+}
+
+.insurancelogo{
+  background: #fff;
+  height: 125px ;
+  padding-top: 20px;   
+
+}
+
+.headername{	
+  text-align: center;
+  color:#fff;
+}
+
+.btn1{    
+  border-style: outset;
+  width: 238px;
+  height: 45px;
+  border-radius: 4px;
+  background: rgba(204,0,0,1);
+  text-shadow: 1px 1px #290000;
+  color: #fff;
+  border-width: 1px;
+  border-color: #990000;
+  font-size: 16px;
+  line-height: 19px; 
+  font-family: Arvo;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.about-testimonial{
+    background-color:#F4F2F0;
+    padding:20px 0;    
+}
+
+.testimony{  
+  font-style: italic; 
+  color: #f2eee4; 
+  font-size: 16px;
+  background-color: #333333;
+  
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 6px solid #cc0000;
+  font-family: lato;
+}
+
+
+.modalheading{
+  font-size: 22px;
+  background-color:#ffffff;
+  color:#000000
+}
+
+.modalheadingtext{
+  font-size:14px;  
+  color:#666666;
+}
+
+/** --- icon-bg begin --- **/
+.iconheader{
+	color:#990000;
+	font-family: 'Arvo';
+	font-size: 19px;
+	padding-bottom: 10px;
+  
+}
+
+.icon p{
+	font-family: 'arial';
+	font-size: 16px;
+  color:#5c5c5c;
+  line-height: 24px;
+}
+
+.imageround{
+  width: 180px; 
+  height: 180px; 
+  border: 1px solid transparent; 
+  margin-bottom: 25px; 
+  border-radius: 100%;
+}
+
+.headertop{padding-bottom: 15px;padding-top: 15px;background-color: rgba(22,22,22,0.4);}
+
+.applyhead{color:#f2eee4; font-size: 28px;}
+
+.lifehead{color: #f2eee4; font-size: 14px; font-family: 'arvo'; font-style:italic; padding-top: 10px;}
+
+.homehead{font-size: 36px; color: #f2eee4; margin-top:50px; font-family: 'lato';}
+
+.freehead{font-size: 20px; color: #f2eee4; margin-bottom:40px; font-family: 'lato';}
+
+.modalheading{font-family: 'arvo'; font-size: 22px; color: #cc0000;}
+
+.modalheadingtext{font-family: 'open sans-regular'; font-size: 16px; color: #666666;}
+
+.privacytext{font-size:13px; text-align: center; font-family:'lato';color:#666666;}
+
+.testimony-name{font-family: 'lato'; font-size: 16px; color: #990000}
+
+.testimony-place{font-family: 'lato'; font-size: 14px; color: #90866e}
+
+/** ___ end --- **/
+
+.downloadcolumn{
+  background: rgba(244,242,240,1);
+  border-top: 6px solid #cc0000; 
+  padding-top: 15px;
+  margin-bottom:85px;
+  z-index: 1;
+  
+}
+
+.downloadcolumn:before{
+  content: "";
+  position: absolute;
+  bottom: -80px;
+  right: 0px;
+  display: block;
+  width: 0;
+  z-index: 0;
+  height: 0px;
+  border-left: 163px solid transparent;
+  border-right: 163px solid transparent;
+  border-top: 80px solid rgba(244,242,240,1);
+}
+
+.triangle{
+  content: "";
+  position: absolute;
+  top: 0px;  
+  display: block;
+  width: 0;
+  z-index: 0;
+  height: 0;
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  border-top: 10px solid #cc0000;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+.bottom-sect{
+  padding:75px 10px;
+}
+
+.auto-head{
+  font-family: 'arvo'; font-size: 16px; color: #f2eee4; 
+}
+
+.auto-text{
+  font-family: 'lato'; font-size: 14px; color: #f2eee4; 
+}
+
+.footer{background: #fafafa;}
+.footer-text{color: beb191; font-size: 12px; font-family: cabin; center;padding-top: 15;}
+/** --- Media Queries ---**/
+@media (max-width: 1200px){
+  .downloadcolumn:before{
+    border-left: 136px solid transparent;
+    border-right: 136px solid transparent;
+    border-top: 80px solid rgba(244,242,240,1);
+  }
+
+}
+
+@media (max-width: 991px){
+	.downloadcolumn:before{
+		border-left: 106px solid transparent;
+		border-right: 105px solid transparent;
+		border-top: 80px solid rgba(244,242,240,1);
+		}
+  .btn1{
+    width: 175px;
+  }
+  .auto-head{
+    font-size: 14px;
+  }
+  .auto-text{
+    font-size: 12px;
+  }
+
+}
+
+@media (max-width:767px){
+  .downloadcolumn:before{
+    display: none;
+  }
+}
+
+@media (max-width: 612px){
+.yorkgrey-bg{
+  padding-top: 178px;
+}
+}

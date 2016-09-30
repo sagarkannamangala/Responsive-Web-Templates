@@ -1,0 +1,140 @@
+.head-text{
+  color: #ffffff; font-size: 36px; font-family: 'playfair display';
+}
+.phonetext{
+color: #ffffff; 
+font-size: 28px; 
+font-family: helvetica;
+bottom: 18px;
+}
+
+.form-group{
+
+  font-size: 14px; 
+  color: #666666;
+  font-family: 'arvo'; 
+  padding-top: 8px;
+}
+.form-control{
+  width: 200px; 
+  height: 36px;
+}
+
+.row.row-full {
+  display:table;
+}
+
+.row.row-full [class*='col-'] {
+  float:none;
+  display:table-cell;
+  vertical-align:top;
+}
+.formhead{
+  color: #ffffff; 
+  font-family:'helvetica-bold'; 
+  font-size: 18px; 
+  padding-bottom: 20px; 
+  margin-top: 15px; 
+  text-align: center;
+}
+
+.label-text{
+  margin-right: 70px; font-family:arial; font-size:14px; color: #fff;
+}
+.label-text1{
+  margin-right: 10px; font-family:arial; color: #fff;
+}
+.headtext{
+   font-family:'playfair display'; 
+   color: #2D3534; 
+   font-size: 28px;
+   text-align: center;
+
+}
+.beachtext{
+  font-family:'playfair display'; 
+  color: #374140; 
+  font-size: 20px;
+  text-align: justify;
+  margin-left: 40px;
+}
+.maintext{
+  color: #ffffff;   
+  font-size: 26px; 
+  font-family:'playfair display'; 
+  text-align: center;
+  margin-top: 68px;  
+}
+.center-justified {
+  text-align: center; 
+ font-family:'playfair display'; 
+ color: #ffffff; 
+ font-size: 26px; 
+ padding: 20px;
+}
+.btn1{    
+  margin-left: 68px;
+  width: 209px;
+  height: 40px;
+  border-radius: 5px;
+  background: -moz-linear-gradient(#f7941d,#d75305);
+  text-shadow: 1px 1px #521601;
+  border-width: 1px;
+  border-color: #333333;
+  font-size: 16px; 
+  font-weight: bold;
+  font-family: arial;
+}
+
+.header-top{
+  padding-bottom: 15px;
+  padding-top: 15px;
+  background-color: #838585;
+}
+
+@media(max-width: 991px){
+  .maintext{
+  font-size: 22px; 
+  }
+}
+
+@media(max-width: 520px){
+  .headtext{
+    font-size: 15px;
+  }
+}
+
+@media(max-width: 561px){
+  .beachtext{
+    font-size: 15px;
+  }
+}
+
+@media(max-width: 561px){
+  .phonetext{
+    font-size: 24px;
+  }
+}
+
+@media(max-width: 418px){
+  .phonetext{
+    font-size: 20px;
+  }
+}
+
+@media(max-width: 1199px){
+  .btn1{
+      margin-left: 0px;
+      width: 200px;
+      font-size: 12px;
+
+  }
+}
+
+
+
+
+
+
+
+

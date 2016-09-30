@@ -1,0 +1,227 @@
+.background-img{
+	padding: 0;	
+	background:url("../images/broker-at-desk.original.png") no-repeat;
+	position: fixed;
+	height: 100%;
+	min-height: 500px;
+    width: 100%;		
+	z-index: -2;
+	background-position: top;
+	background-size: cover;		
+	left:0;
+	top: -20px;
+}
+
+.background-fade{
+	padding: 0;
+	background-color:rgba(0,0,0,0.4); 	
+	position: fixed;
+	height: 100%;
+	min-height: 500px;
+    width: 100%;		
+	z-index: -1;
+	top: 0;
+	left:0;
+}
+
+.btnget {
+  font-size: 22px;
+  width: 241px;
+  height: 51px;
+  font-family: 'arial'; 
+  border-width: 1px;
+  border-color: #333333;
+  font-family: 'arial';
+  text-align: center;
+  color: #ffffff;
+  background: #4ecdc4;
+}
+
+.btnget:hover {
+  background: #4ecdc4;
+  background-image: -webkit-linear-gradient(top, #4ecdc4, #34ecdc4);
+  background-image: -moz-linear-gradient(top, #4ecdc4, #34ecdc4);
+  background-image: -ms-linear-gradient(top, #4ecdc4, #34ecdc4);
+  background-image: -o-linear-gradient(top, #4ecdc4, #34ecdc4);
+  background-image: linear-gradient(to bottom, #4ecdc4, #34ecdc4);
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.modalbtn{
+  	background-color: #4ecdc4;  
+  	background: linear-gradient(#4ecdc4,#1a9085);
+  	border-width: 1px;
+  	border-color: #333333;  	
+  	font-family: 'arial'; 
+  	text-align: center; 
+}
+
+.aaronwalker{
+	background-image: url("../images/modern-office.original.png"); 		
+	background-size: cover; 
+	height: 440px; 
+	background-position-y: -210px;
+	width: 100%;
+}
+
+.headertop{
+	background-color: #556270;
+}
+.mheader{
+	font-family: 'open sans';
+	font-size: 36px;
+	color: #fff;
+	font-style: italic;
+}
+.mloan{
+	font-family: 'helvetica';
+	font-size: 14px;
+	color: #fff;
+	font-weight: normal;
+	padding-left: 96px;
+	margin-top: -12px;
+}
+.header-num{
+	font-family: 'open sans';
+	font-size: 28px;
+	color: #fff;
+	font-weight: normal;
+	padding-top: 18px;
+}
+
+.arrow{
+	 height: 90px; 
+	 display: block; 
+	 margin-bottom: 3px; 
+	 margin-left: auto; 
+	 margin-right: auto;
+}
+.contentmodal{
+	width: 340px; 
+	height: 560px; 
+	margin-top: 200px; 
+	background-color: #556270;
+}
+.loan-bg{background-color:#556270;}
+
+.programbg{background-color:rgba(78,205,196,1); margin-top: 47px;}
+
+.lcontent1{padding-top: 20px;}
+
+.lcontent2{padding-top: 35px;}
+
+.mid-city{padding-top: 10px;}
+
+.imageaaron{padding-top: 28px;}
+
+.imagestar{padding-top: 10px;}
+
+.footertext{text-align: center; padding: 19px;}
+
+.mid-head{
+	font-family: 'arvo';
+	font-size: 26px;
+	color: #fff;
+	font-weight: normal;
+}
+.mid-text{
+	font-family: 'helvetica';
+	font-size: 18px;
+	color: #fff;
+	font-weight: normal;
+}
+.mid-content{
+	font-family: 'helvetica';
+	font-size: 22px;
+	color: #fff;
+	font-weight: normal;
+
+}
+.mid-city {
+	font-family: 'helvetica';
+	font-size: 14px;
+	color: #fff;
+	font-weight: normal;
+}
+.mainheader{
+	font-family: 'arvo';
+	font-size: 36px;
+	color: #fff;
+	font-weight: normal;
+	margin-top: 89px;
+}
+.maintext{
+	font-family: 'open sans';
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 35px;
+}
+.aaraoncontent{
+	font-family: 'open sans';
+	font-size: 18px;
+	color: #fff;
+	text-align: center;
+	padding-top: 20px
+}
+.aaronname{
+	font-family: 'arvo';
+	font-size: 24px;
+	color: #fff;
+	padding-top: 20px;
+}
+
+.forminput{
+	width: 243px;
+}
+
+.form-group{
+	padding-left: 30px;
+}
+.formtext{
+	color: #ffffff;
+}
+.dark-filter{
+	height: 440px; 
+	width: 100%;
+	background-color: #000;
+	position: absolute;
+	opacity: 0.2;
+}
+
+.footer{background: rgba(65,77,89,1);}
+
+/*Media Queries*/
+
+@media(max-width: 1364px){
+.aaronwalker{
+		background-position-y: -76px;
+	}
+}
+@media(max-width: 1080px){
+.aaronwalker{
+		background-position-y: -0px;
+	}
+}
+@media(max-width: 412px){
+.aaronname{
+		padding-top: 0px;
+	}
+}
+@media(max-width: 640px){
+.mheader{
+		font-size: 28px;
+	}
+}
+@media(max-width: 640px){
+.mloan{
+		font-size: 12px;
+	}
+}
+@media(max-width: 640px){
+.header-num{
+		font-size: 24px;
+	}
+}

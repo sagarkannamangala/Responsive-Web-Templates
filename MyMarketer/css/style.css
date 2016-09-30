@@ -1,0 +1,169 @@
+.background-img{
+  min-height: 550;
+  background-size: cover;
+  background-position: center;
+}
+.headertop{
+	background-color: #859797;
+	padding: 15px;
+}
+.header-text{
+	  font: italic bold 28px serif;
+	  color: #fff; 	
+}
+
+.header-num{
+	font :bold 21px serif;
+	color: #fff;
+	padding-top:10px;
+}
+
+.headername{
+	font-family: 'open sans';
+	font-size: 36px;
+	color: #fff;
+	padding-top: 80px;
+}
+
+.btn1{
+    
+  border-style: outset;
+  width: 355px;
+  height: 63px;
+  border-radius: 4px;
+  background-color: #268bd2;  
+  text-shadow: 1px 1px #010f2e;
+  color: #fff;
+  border-width: 1px;
+  font-size: 24px;
+  line-height: 29px; 
+  font-family: Lato; 
+  text-align: center;
+   font-weight: normal;
+}
+.head-modal{
+	font-size: 16px;
+	font-family: 'open sans';
+	font-weight: bold;
+}
+.modal-bg{background: ghostwhite;}
+
+.logos{background-color:#DEE0D5;}
+
+.logo{padding: 20px;}
+
+
+/*.boxee{
+	width: 100%;    
+	background: url("../images/boxee-logo-green.png")no-repeat;}
+.elements{
+	width: 100%; 
+	background: url("../images/elements-logo.png")no-repeat;}
+.convert{
+	width: 100%; 
+	background: url("../images/convert-themes-logo.png")no-repeat;}
+.lockwood{
+	width: 100%; 
+	background: url("../images/lockwood-award.png")no-repeat;}
+.wanderlust{
+	width: 100%; 
+	background: url("../images/wanderlust-logo.png")no-repeat;}*/
+
+.imageround{
+  width: 125px; 
+  height: 125px; 
+  border: 1px solid transparent; 
+  margin-bottom: 25px; 
+  border-radius: 100%;
+}
+
+.roundicon{background-color:#859797;}
+
+.roundiconrow{color: #fff; padding-top: 70px; padding-bottom: 40px;}
+
+.iconheader{
+	color:#ffffff;
+	font-family: 'Lato';
+	font-size: 20px;
+	padding-bottom: 10px;
+  
+}
+.testimonytop{padding-top: 30px;}
+.about-testimonial{
+    
+    background-color:#859797;
+    padding:20px 0;
+    
+}
+
+.testimony{
+	border: 3px solid #DD9150; 
+	font-family: lato; 
+	font-size: 14px; 
+	color: #ffffff;
+	padding: 20px 12px 20px 12px;
+}
+
+.definecolumns{
+  background-color: rgba(0,0,0,0.3);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.deifneheader{
+	font-family: 'Lato';
+	font-size: 20px;
+	color: #fff;
+}
+
+.audiencetext{
+	font-family: 'Lato';
+	font-size: 14px;
+	color: #fff;
+}
+
+.clientsheader{
+	font-family: 'Lato';
+	font-size: 16px;
+	color: #989f9f;
+}
+
+.guaranteetext{
+	font-family: 'Lato';
+	font-size: 28px;
+	color: #000000;
+	background-color:#DEE0D5;
+	padding: 18px;
+}
+
+.footer{
+	font-family: 'Lato';
+	font-size: 28px;
+	color: #000000;
+	background-color:#DEE0D5;
+}
+
+.footertext{
+	padding-top: 38px;
+}
+
+.footer-button{
+	padding-top: 20px; padding-bottom: 60px;
+}
+
+.testimonyname{font-family: lato; font-size: 14px; color: #ffffff}
+
+/* Media Queries */
+@media(max-width:1300px){
+	.background-img{
+		  background-position-y: 0px;
+	}
+}
+
+@media(max-width: 768px){
+	.headername{
+			font-size: 28px;
+	}
+}

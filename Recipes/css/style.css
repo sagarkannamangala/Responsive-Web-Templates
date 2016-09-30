@@ -1,0 +1,250 @@
+.border-line1{
+	border-top: 1px solid #3071A9;
+	border-bottom: 1px solid #3071A9;		
+}
+.border-line2{
+	border-bottom: 1px solid #3071A9;	
+}
+.headertop{
+	background-color: #F6F3E4;
+}
+
+.header-logo{width: 100;}
+
+.header-num{
+	font :normal 26px 'open sans';
+	color: #3071a9;
+	padding-top:10px;
+}
+.background-main-img{
+	padding: 0;
+	background:url("../images/color-seafood-lp.original.png") no-repeat;
+	position: fixed;
+	height: 100%;
+	min-height: 500px;
+    width: 100%;		
+	z-index: -1;
+	background-size: cover;	
+	top: 0px;
+}
+
+.wrap-top-img{
+	position:relative;
+}
+
+.background-img{
+	padding: 0;
+	background:url("../images/chef-meal-lp.original.png") no-repeat;
+	position: absolute;
+	height: 100%;
+    width: 100%;		
+	z-index: 0;
+	background-position: top;
+	background-size: cover;	
+	left: 0px;	
+}
+
+.recipe-bg{
+	 background-color: rgba(48, 113, 169,.7);	 
+}
+
+.recipe-home{
+	margin-top: 240px; 
+	padding: 15px;
+	margin-bottom: 20px;
+}
+
+.recipe-text{
+	font :normal 20px 'open sans';
+	color: #f6f3e4;
+	padding-top: 10px;	
+}
+
+.form-head{
+	font :normal 24px 'open sans';
+	color: #f6f3e4;
+	padding-bottom: 10px;
+}
+.formtext{
+	font :normal 14px 'open sans';
+	color: #f6f3e4;
+}
+.btn-sign{
+	border-style: outset;
+	width: 219px;
+	height: 53px;
+	border-radius: 5px;
+	background: #c23f02;  
+	text-shadow: none;
+	color: #fff;  
+	font-size: 18px;
+	line-height: 22px; 
+	font-family: 'open sans'; 
+	text-align: center;
+	font-weight: normal;
+	margin-top: 10px;
+}
+.dish-text{
+	font :normal 16px 'open sans';
+	color: #ffffff;
+}
+
+.form-bg{
+	
+	 padding: 25px 42px 25px 42px;
+}
+
+.mid-recipe{
+	background-color: #F6F3E4;
+}
+
+.month-recipe{
+	font :normal 36px 'open sans';
+	color: #3071a9;
+	padding-top: 20px;
+  	padding-bottom: 20px;
+}
+
+.recipe-dish{
+	font :normal 18px 'open sans';
+	color: #c23f02;
+	padding-top: 10px;
+}
+
+.img-border{
+	padding: 2px; 
+	border: 1px solid #3071A9;
+}
+
+hr {
+margin-left: auto;
+margin-right: auto;
+height: 1px;
+background-color:#3071A9;
+
+}
+.mid-subscribers{
+	background-color: #F6F3E4;
+}
+.subscribers-head{
+	font :normal 28px 'open sans';
+	color: #3071a9;
+	padding-top: 10px;
+  	padding-bottom: 35px;
+}
+
+.recipe-selection{
+	font :normal 12px 'open sans';
+	color: #3071a9;
+	padding-top: 15px;
+  	padding-left: 60px;
+}
+
+.box{
+	margin: 0px -20px;
+	padding: 0px 20px;
+	color: #000000;
+	background-color: #ffffff;
+}
+
+.join-head{
+	font :normal 28px 'open sans';
+	color:#f6f3e4
+}
+
+.btn1{
+    
+  border-style: outset;
+  width: 294px;
+  height: 53px;
+  border-radius: 4px;
+  background-color: #0a2d5f;  
+  text-shadow: none;
+  color: #fff;  
+  font-size: 16px;
+  line-height: 19px; 
+  font-family: 'open sans'; 
+  text-align: center;
+  font-weight: normal;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+.icon-name{
+	font :normal 22px 'open sans';
+	color:#3071A9;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+.sq-box{
+  width: 100%;
+  height: 100%;
+  max-height: 280px;
+  background: rgba(48,113,169,1);
+  border-radius: 10px;
+  font: normal 14px 'open sans';
+  color: #ffffff;
+  position: relative;
+}
+
+.subscriber-think{
+	padding: 12px;
+}
+
+.subscribers-img{	
+  	position: absolute;
+  	bottom: -50px;
+  	left: 75px;
+}
+
+.footer{
+	background-color: #F6F3E4;  
+	padding: 10px 0px 5px 0px;
+	font :normal 14px 'open sans';
+	color:#3071a9;
+}
+
+/*---Media Queries---*/
+@media(max-width: 991px){
+	.recipe-dish{
+	font-size: 14px;	
+}
+}
+@media(max-width: 768px){
+	.recipe-selection{
+	padding-top: 0px;	
+}
+}
+@media(max-width: 1199px){
+	.btn-sign{
+	width: 150px;	
+}
+}
+@media(max-width: 1199px){
+	.recipe-text{
+	font :normal 16px 'open sans';	
+}
+}
+@media(max-width: 991px){
+	.recipe-text{
+	font :normal 20px 'open sans';
+	
+}
+}
+@media(max-width: 991px){
+	.recipe-home{
+	margin-top: 50px; 
+	
+}
+}
+@media(max-width: 1200px){
+	.subscribers-img{
+	left: 50px; 
+	
+}
+}
+@media(max-width: 768px){
+	.subscriber-think {
+  padding: 50px;
+}
+}

@@ -1,0 +1,84 @@
+.header{
+	font-family: 'georgia';
+	font-size: 38px;
+	color: #fff;	
+	font-weight: bold;
+	line-height: 1;
+	text-shadow: -2px 1px 0px rgba(150, 150, 150, 1);
+}
+
+.headertext{
+	font-family: 'georgia';
+	font-size: 24px;
+	color: #fff;	
+	font-weight: bold;
+	text-align: center;
+	text-shadow: -2px 1px 0px rgba(150, 150, 150, 1);
+}
+
+.formheader{
+	font-family: 'georgia';
+	font-size: 17px;
+	color: #fff;	
+	font-weight: bold;
+	text-align: center;
+}
+
+.formtext{
+	font-family: 'open sans';
+	font-size: 14px;
+	color: #fff;
+	font-weight: normal;
+}
+
+.events{
+	font-family: 'georgia';
+	font-size: 28px;
+	color: #dc2d40;	
+	font-weight: bold;
+	text-align: center;
+}
+
+.eventheader{
+	font-family: 'georgia';
+	font-size: 24px;
+	color: #dc2d40;	
+	font-weight: bold;
+	text-align: justify;
+}
+
+.eventtext{	
+	font-family: 'pf sans';
+	font-size: 18px;
+	color: #8f2831;	
+	font-weight: normal;
+	text-align: justify;
+}
+
+.dreamheader{
+	font-family: 'georgia';
+	font-size: 32px;
+	color: #dc2d40;	
+	font-weight: bold;
+	text-align: center;
+}
+
+.copyrighttext{	
+	font-family: 'pf sans';
+	font-size: 14px;
+	color: #ffffff;	
+	font-weight: normal;
+	padding-top: 70px;	
+	text-shadow: -2px 1px 0px rgba(150, 150, 150, 1);
+}
+
+
+.form-bg{
+	background-color:#DC2D40; 
+	padding: 40px; 
+	border-radius: 12px;
+}
+
+.mid-sec{
+	padding: 40px 0;}
+

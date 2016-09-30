@@ -1,0 +1,104 @@
+.headertop{
+	background: #252525;
+}
+
+.background-img{
+	padding: 0;	
+	background:url("../images/coser-hero.original.png") no-repeat;
+	position: fixed;
+	height: 100%;
+	min-height: 500px;
+    width: 100%;		
+	z-index: -2;
+	background-position: top;
+	background-size: cover;		
+	left:0;
+	top: -20px;
+}
+
+.mainheader{
+	font-family: 'montserrat';
+	font-size: 64px;
+	color: #fff;
+	font-weight: bold;
+}
+.maintext{
+	font-family: 'open sans';
+	font-size: 24px;
+	color: #fff;
+	font-weight: normal;
+}
+
+.mid-sec{
+	background-color: #ffffff;
+}
+.mid-head{
+	font-family: 'montserrat';
+	font-size: 36px;
+	color: #252525;
+	font-weight: bold;
+}
+.mid-text{
+	font-family: 'open sans';
+	font-size: 12px;
+	color: #9b9b9b;
+	font-weight: normal;
+}
+
+.feature-head{
+	font-family: 'montserrat';
+	font-size: 14px;
+	color: #4a90e2;
+	font-weight: bold;
+}
+.feature-text{
+	font-family: 'open sans';
+	font-size: 12px;
+	color: #9b9b9b;
+	font-weight: normal;
+}
+.column-shade{
+	background: #ffffff;
+}
+.column-head{
+	font-family: 'montserrat';
+	font-size: 14px;
+	color: #9b9b9b;
+	font-weight: bold;
+}
+.column-head1{
+	font-family: 'montserrat';
+	font-size: 14px;
+	color: #4a90e2;
+	font-weight: bold;
+}
+.column-text{
+	font-family: 'montserrat';
+	font-size: 22px;
+	color: #9b9b9b;
+	font-weight: bold;
+}
+.column-text1{
+	font-family: 'montserrat';
+	font-size: 22px;
+	color: #4a90e2;
+	font-weight: bold;
+}
+.text-bg{
+	background: rgba(216,216,216,1);
+	border-style: solid;
+  	border-width: 1px;
+  	border-color: #979797;
+}
+.text-1{
+	font-family: 'open sans';
+	font-size: 12px;
+	color: #ffffff;
+	font-weight: normal;
+}
+.text-2{
+	font-family: 'open sans';
+	font-size: 12px;
+	color: #9b9b9b;
+	font-weight: normal;
+}

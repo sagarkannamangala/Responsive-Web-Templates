@@ -1,0 +1,145 @@
+.custom{	
+	color: #ffffff;
+	font-size: 24px;
+	font-family: 'open sans';
+	padding-top: 20px;
+	top: -8px;
+}
+
+.headertext{
+	font-family: 'open sans';
+	font-size: 36px;
+	color: 000000;
+	padding-bottom: 25px;
+	font-weight: 400;
+}
+
+.maintext{
+	font-family: 'open sans';
+	font-size: 16px;
+	color: #5d6760;
+	text-align: justify;
+}
+
+.formhead{
+	font-family:'open sans'; 
+	padding-bottom: 20px; 
+	margin-top: 20px; 
+	font-size:16px; 
+	color: 5d6760;
+}
+.form-group{
+	padding-bottom: 10px;
+	display: inline-block;   
+	margin-bottom: 0;   
+	vertical-align: middle;
+}
+
+.formlabel1{margin-right: 10px; font-family:'open sans'; font-weight: normal; font-size:14px; color: #5d6760;}
+.formlabel2{margin-right: 36px; font-family:'open sans'; font-weight: normal; font-size:14px; color: #5d6760;}
+.formlabel3{margin-right: 41px; font-family:'open sans'; font-weight: normal; font-size:14px; color: #5d6760;}
+
+.form-bg{background-color: #fff;border-radius: 50px; margin: 25px;}
+
+.aboutus{background-color: #F8F8F8; padding-top: 30px;}
+
+.lead{background-color: #FFFFFF; padding-top: 30px;}
+
+.compensation{background-color: #F8F8F8; padding-top: 30px;}
+
+.service{background-color: #FFFFFF; padding-top: 30px;}
+
+.hired{background-color: #F8F8F8; padding-top: 30px;}
+
+.footer{background-color: #868585;padding-top: 20px;margin-bottom: 50px;}
+
+.form-control{
+	width: 180px; 
+	height: 30px;
+}
+
+.realestateform{
+	position: absolute; 
+	top: 175px;
+}
+
+.iconimage{
+	width:100%;
+}
+
+.btn1{
+  z-index: 17;
+  width: 119px;
+  height: 26px;
+  border-radius: 5px;
+  background-color: #f7941d;
+  background: -webkit-linear-gradient(#f7941d,#d75305);
+  background: -moz-linear-gradient(#f7941d,#d75305); 
+  box-shadow: inset 0px 1px 0px #ffbb6a,inset 0 -1px 2px #a33f03;
+  text-shadow: 1px 1px #521601; 
+  color: #fff;
+  border-width: 1px;
+  border-color: #333333;
+  font-size: 16px; 
+  font-weight: bold;
+  font-family: arial;
+  text-align: center; 
+}
+
+@media (max-width: 1200px){
+.realestateform{
+  top: 0px;
+}
+}
+
+@media (max-width: 700px){
+.maintext{
+  font-size: 14px;
+}
+}
+@media (max-width: 600px){
+.maintext{
+  font-size: 12px;
+}
+}
+@media (max-width: 700px){
+.headertext{
+  font-size: 24px;
+}
+}
+@media (max-width: 750px){
+.iconimage{
+  height: 30%;
+}
+}
+
+@media (max-width: 426px){
+.custom{
+  font-size: 20px;
+}
+}
+@media (max-width: 412px){
+.custom{
+  font-size: 18px;
+}
+}
+@media (max-width: 610px){
+.form-control{
+ width: 150px; 
+	height: 25px;
+
+}
+}
+@media (max-width: 580px){
+.formhead{
+ font-size:14px; 
+
+}
+}
+@media (max-width: 450px){
+.formhead{
+ font-size:12px; 
+
+}
+}
+

@@ -1,0 +1,128 @@
+.approved-btn{
+  border-style: solid;    
+  border-radius: 5px;
+  background-color: #51bda9; 
+  background: linear-gradient(#51bda9,#1b7963);
+  text-shadow: 1px 1px #031c14;
+  color: #fff;
+  border-width: 1px;
+  border-color: #2d7064;
+  font-size: 16px; 
+  font-weight: bold;
+  font-family: Merriweather;
+}
+
+.main-bg{background-color: #E6E6E6;}
+
+.headtop{margin-top: 27px;}
+
+.trilogoheader{color: #ffffff; font-size: 18px; font-family: lato;}
+
+.triheader{
+  color: #ffffff; font-size: 22px; font-family: 'lato';
+}
+
+.tripara{
+  color: #ffffff; font-size: 16px; font-family: Georgia, sans-serif;font-weight: 900;
+}
+
+.main-head{color: #666666; font-size: 21px; font-family: 'lato'; margin-top: 30px;}
+
+.main-text{color: #666666; font-size: 14px; font-family: 'arial';font-weight: bold; text-align: justify;}
+
+.sec-1{}
+
+.sec-2{padding-top: 60px;}
+
+.sec-3{padding-top: 40px;}
+
+.sec-4{padding-top: 40px;}
+
+.tri-col-head{padding: 25px;}
+
+.tri-col-mid{padding: 20px;}
+
+.home-form-bg{padding: 50px;padding-top: 30px;}
+
+.testimony{padding-bottom: 10;}
+
+.down-arrow{width: 100%;}
+
+.footer-text{font-size:13px; font-family: 'lato'; color: rgb(153, 153, 153);}
+
+.formtext{
+  font-size: 16; 
+  color: #333333; 
+  font-weight: normal; 
+  font-family: 'lato';
+}
+
+.formheader{
+  color: #ffffff; 
+  font-size: 20px; 
+  font-weight: bold; 
+  font-family: 'lato';
+}
+
+.owners{
+  padding: 0px 15px;
+  text-align: justify; 
+  font-family:'helvetica'; 
+  font-size: 14; 
+  font-weight: normal; 
+  color: #666666;
+}
+
+.homename{
+color: #666666; 
+font-size: 17px; 
+font-family: 'lato';
+}
+
+.homepara{
+color: #666666; 
+font-size: 18px; 
+font-family: 'open sans'; 
+line-height: 1;
+text-align: justify;
+}
+
+.johnrow{
+  padding-top: 47px;
+  padding-bottom: 11px;
+}
+.imageroundicon{
+  border: 3px solid #666666; 
+  margin:0;
+  padding: 15px; 
+  border-radius: 50%; 
+  width: 105px; 
+  height: 105px;
+}
+
+.privacy{
+  font-size:13px; 
+  text-align: center; 
+  font-family:'lato';
+  color:#666666; 
+  padding-top: 25px;
+}
+
+@media (max-width: 1201px){
+.johnrow{
+padding-top: 7px;
+}
+}
+
+@media (max-width: 1201px){
+.triheader{
+font-size: 18px; 
+}
+
+}
+
+@media (max-width: 992px){
+.separationcolumn{
+padding-top: 20px;
+}
+}

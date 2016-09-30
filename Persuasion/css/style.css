@@ -1,0 +1,108 @@
+.background-main{
+	background: url("../images/formbg.original.jpg") no-repeat;
+	padding: 0;
+	position: fixed;
+	height: 100%;
+	min-height: 500px;
+    width: 100%;		
+	z-index: -2;
+	background-position: top;
+	background-size: cover;	
+}
+
+.wrap-top-img{
+	position:relative;
+}
+
+.background-img{
+	padding: 0;	
+	background:url("../images/headerbg.original.jpg") no-repeat;
+	position: absolute;
+	height: 100%;
+	min-height: 615px;
+    width: 100%;		
+	z-index: -1;
+	background-position: top;
+	background-size: cover;		
+	left:0;
+	top: -20px;
+}
+
+.header-logo{
+	padding-top: 27px
+}
+
+.header-text{
+	font :normal 120px 'oswald';
+	color: #ffffff;
+	letter-spacing: 20px;
+}
+.build-text{
+	font :normal 30px 'oswald';
+	color: #ffffff;
+	letter-spacing: 6px;
+}
+.aarow-grey{
+	padding-top: 55px;
+	position: absolute;
+}
+
+.mid-text {
+	font :normal 28px 'open sans';
+	color: #ffffff;
+	line-height: 50px;
+}
+.mid-text-1{
+	font :normal 32px 'oswald';
+	color: #ffffff;	
+  	letter-spacing: 8px;
+  	font-weight: 100;
+}
+.aarow-dark{
+	padding-top: 20px;
+	position: absolute;
+}
+.check-text{
+	font :normal 100px 'oswald';
+	color: #00d651;	  	
+  	font-weight: 300;
+  	line-height: 1.2;
+}
+.stuff-header{
+	font :normal 44px 'oswald';
+	color: #000000;	
+}
+.stuff-text{
+	font :normal 28px 'open sans';
+	color: #000000;	
+}
+.aarow-white{
+	padding-top: 1063px;
+	position: absolute;
+}
+.background-quote2bg{
+  width:100%; 
+  height: 625px; 
+  z-index: -1;
+  top: 2337px;
+  bottom: 0;
+  position: absolute;
+}
+.real-text{
+	font :bold 30px 'open sans';
+	color: #b0b0b0;	
+}
+.real-tex-1{
+	font :normal 28px 'open sans';
+	color: #000000;	
+}
+
+.destiny-text{
+	font :bold 28px 'open sans';
+	color: #000000;
+}
+
+.aarow-white-1{
+	padding-top: 574px;
+	position: absolute;
+}

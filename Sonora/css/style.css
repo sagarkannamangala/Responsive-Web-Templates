@@ -1,0 +1,111 @@
+.background-img{
+	background: url("../images/header-bg.original.png") no-repeat;
+	min-height: 550;
+  	background-size: cover;
+  	
+}
+
+.background-fade{
+	padding: 0;
+	background-color:rgba(31,32,54,1);;
+	position: fixed;
+	height: 100%;
+	min-height: 500px;
+    width: 100%;		
+	z-index: -1;
+	top: -71;
+	left:0;
+}
+
+.header-name{
+	font-family:'roboto';
+	font-size: 72px;
+	color: #fff; 
+	line-height: 1;
+	margin-top: 95px;
+}
+
+.header-text{
+	font-family:'roboto';
+	font-size: 18px;
+	color: #8c8c85; 	
+}
+
+.about-email{
+	background-color: #1F2036;
+}
+
+.get-email{
+	font-family:'roboto';
+	font-size: 26px;
+	color: #ffffff; 
+}
+
+.get-text{
+	font-family:'roboto';
+	font-size: 14px;
+	color: #8c8c85; 
+}
+
+.email-text{
+	font-family:'roboto';
+	font-size: 14px;
+	color: #d63e4b; 
+}
+
+.stay-text{
+	font-family:'roboto';
+	font-size: 16px;
+	color: #ffffff; 
+	font-weight: bold;
+}
+
+.about-webapp{
+	background-color: #ffffff;
+} 
+
+.wed-head{
+	font-family:'roboto';
+	font-size: 26px;
+	color: #1f2e3c; 
+	font-weight: normal;
+	padding-top: 80px;
+  	padding-bottom: 75px;
+}
+
+.row.row-full [class*='col-'] {
+  float:none;
+  display:table-cell;
+  vertical-align:top;
+}
+
+.text-1{
+	font-family:'roboto';
+	font-size: 14px;
+	color: #8c8c85; 
+	font-weight: bold;
+}
+.text-2{
+	font-family:'roboto';
+	font-size: 18px;
+	color: #ece5e0; 
+	font-weight: normal;
+}
+.text-3{
+	font-family:'roboto';
+	font-size: 14px;
+	color: #ece5e0; 
+	font-weight: normal;
+}
+
+.footer{
+	background-color: #1F2036;
+	padding: 30px 0px 30px 0px;
+}
+
+.footer-text{
+	font-family:'roboto';
+	font-size: 14px;
+	color: #8c8c85; 
+	font-weight: normal;
+}

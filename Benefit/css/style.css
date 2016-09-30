@@ -1,0 +1,40 @@
+.background-img{
+	padding: 0;
+	background: url("../images/mountains-original.jpg") no-repeat;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	min-height: 500px;
+	z-index: -2;
+	background-position: top;
+	background-size: cover;
+}
+
+.background-img-fade{
+	padding: 0;
+	background-color:rgba(255,110,64,0.9);
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	min-height: 500px;		
+	z-index: -1;
+	top: 0;
+	left:0;
+}
+
+.headername{
+	font-family: 'roboto';
+	font-size: 68px;
+	color: #fff;
+	font-weight: normal;
+	line-height: 1;
+}
+
+.headertext{
+	font-family: 'roboto';
+	font-size: 68px;
+	color: #fff;
+	font-weight: normal;
+	line-height: 1;
+}
+
